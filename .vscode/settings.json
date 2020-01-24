@@ -1,0 +1,6 @@
+{
+  "prettier.alignObjectProperties": true,
+  "prettier.arrayExpand": true,
+  "prettier.tabWidth": 2,
+  "prettier.spaceBeforeFunctionParen": true
+}
