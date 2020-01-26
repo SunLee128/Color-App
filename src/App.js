@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Palette from './Palette';
 import seedColors from './seedColors.js';
+import { generatePalette } from './colorHelper'
 
 function App () {
   return (
