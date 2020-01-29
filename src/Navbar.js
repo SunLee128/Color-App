@@ -57,19 +57,19 @@ class Navbar extends Component {
           open={this.state.open}
           autoHideDuration={3000}
           message={
-          <span id='message-id' > 
-            Format changed to {format.toUpperCase()} 
-          </span>
+            <span id='message-id'>
+            Format changed to {format.toUpperCase()}
+            </span>
           }
           ContentProps={{
             'aria-describedby': 'message-id'
           }}
           onClose={this.closeSnackbar}
           action={[
-            <IconButton 
-              onClick={this.closeSnakcbar} 
-              color='inherit' 
-              key='close' 
+            <IconButton
+              onClick={this.closeSnakcbar}
+              color='inherit'
+              key='close'
               aria-label='close'
             >
               <CloseIcon />
