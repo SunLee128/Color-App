@@ -17,7 +17,7 @@ export default [
       { name: 'lightgreen', color: '#8BC34A' },
       { name: 'lime', color: '#CDDC39' },
       { name: 'yellow', color: '#FFEB3B' },
-      { name: 'amber', color: '#FFC107' },
+      { name: 'amber', color: '#FFC107' }, 
       { name: 'orange', color: '#FF9800' },
       { name: 'deeporange', color: '#FF5722' },
       { name: 'brown', color: '#795548' },
@@ -28,16 +28,16 @@ export default [
   {
     paletteName: 'Flat UI Colors v1',
     id: 'flat-ui-colors-v1',
-    emoji: '🤙',
+    emoji: '🤙', 
     colors: [
       { name: 'Turquoise', color: '#1abc9c' },
       { name: 'Emerald', color: '#2ecc71' },
       { name: 'PeterRiver', color: '#3498db' },
       { name: 'Amethyst', color: '#9b59b6' },
-      { name: 'WetAsphalt', color: '#34495e' },
+      { name: 'WetAsphalt', color: '#34495e' }, 
       { name: 'GreenSea', color: '#16a085' },
       { name: 'Nephritis', color: '#27ae60' },
-      { name: 'BelizeHole', color: '#2980b9' },
+      { name: 'BelizeHole', color: '#2980b9' },  
       { name: 'Wisteria', color: '#8e44ad' },
       { name: 'MidnightBlue', color: '#2c3e50' },
       { name: 'SunFlower', color: '#f1c40f' },
