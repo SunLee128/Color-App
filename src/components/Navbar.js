@@ -27,7 +27,7 @@ class Navbar extends Component {
   }
 
   render () {
-    const { level, changeLevel,showingAllColors } = this.props;
+    const { level, changeLevel, showingAllColors } = this.props;
     const { format } = this.state;
     return (
       <header className='Navbar'>
@@ -47,8 +47,7 @@ class Navbar extends Component {
               />
             </div>
           </div>
-          )
-        }
+        )}
 
         <div className='select-container'>
           <Select value={format} onChange={this.handleFormatChange}>

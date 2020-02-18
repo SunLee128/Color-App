@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { CopyToClipboard } from "react-copy-to-clipboard";
+import { Link } from "react-router-dom";
 import chroma from "chroma-js";
 import { withStyles } from "@material-ui/styles";
-import { CopyToClipboard } from 'react-copy-to-clipboard';
-import './ColorBox.css';
+
+import "./ColorBox.css";
 
 const styles = {
   ColorBox: {
@@ -60,7 +61,7 @@ const styles = {
     border: "none",
     textDecoration: "none",
     opacity: 0
-  }, 
+  },
   boxContent: {
     position: "absolute",
     width: "100%",
@@ -125,25 +126,23 @@ const styles = {
 };
 
 class ColorBox extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props);
     this.state = { copied: false };
     this.changeCopyState = this.changeCopyState.bind(this);
   }
-
-  changeCopyState () {
+  changeCopyState() {
     this.setState({ copied: true }, () => {
       setTimeout(() => this.setState({ copied: false }), 1500);
     });
   }
-
-  render () {
-    const { 
-      name, 
-      background, 
+  render() {
+    const {
+      name,
+      background,
       moreUrl,
       showingFullPalette,
-      classes 
+      classes
     } = this.props;
     const { copied } = this.state;
     return (
