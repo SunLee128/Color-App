@@ -1,4 +1,4 @@
-sudo: required
+# sudo: required
 language: node_js
 services: 
   - docker
@@ -14,7 +14,7 @@ deploy:
   region: "ap-southeast-2"
   app: "color-app"
   env: "ColorApp-env"
-  bucket_name: "elasticbeanstalk-ap-southeast-2-730163571022"
+  bucket: "elasticbeanstalk-ap-southeast-2-730163571022"
   bucket_path: "color-app"
   on: 
     branch: master
