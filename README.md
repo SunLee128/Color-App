@@ -1,3 +1,6 @@
+### Deployed on AWS
+colorapp-env.eba-2s5pebwc.ap-southeast-2.elasticbeanstalk.com
+
 ### Dependency
 - react-copy-to-clipboard 
 https://github.com/nkbt/react-copy-to-clipboard
@@ -14,7 +17,7 @@ https://material-ui.com/
 ### To run developement server 
 `docker-compose up` 
 
-### To test in Docker environmnet
+### To test in Docker environment
 `docker build -f Dockerfile.dev .`
 `docker run -it <containerid> npm run test`
 
