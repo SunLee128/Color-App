@@ -14,6 +14,9 @@ https://github.com/react-component/slider
 - materal-ui
 https://material-ui.com/
 
+- React Color
+https://casesandberg.github.io/react-color/
+
 ### To run developement server 
 `docker-compose up` 
 
