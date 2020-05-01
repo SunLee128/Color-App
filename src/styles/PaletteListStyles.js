@@ -21,8 +21,7 @@ export default {
     color          : 'white',
     '& a'          : {
       color : 'white'
-    },
-    color          : 'white'
+    }
   },
   palettes  : {
     boxSizing           : 'border-box',
