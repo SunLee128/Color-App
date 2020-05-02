@@ -20,6 +20,10 @@ https://casesandberg.github.io/react-color/
 - React material-ui Form validator
 https://www.npmjs.com/package/react-material-ui-form-validator
 
+- React-Sortable-Hoc
+https://github.com/clauderic/react-sortable-hoc
+
+
 ### To run developement server 
 `docker-compose up` 
 
