@@ -15,7 +15,7 @@ export default {
     display         : 'flex',
     alignItems      : 'flex-start',
     justifyContent  : 'center',
-    backgroundColor : '#394bad',
+    // backgroundColor : '#394bad',
     backgroundImage : `url(${bg})`,
     overflow        : 'scroll'
   },
