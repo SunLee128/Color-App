@@ -15,7 +15,6 @@ import styles from '../styles/NewPaletteFormStyles';
 
 const drawerWidth = 400;
 
-
 class NewPaletteForm extends Component {
   static defaultProps = {
     maxColors : 20
@@ -142,7 +141,13 @@ class NewPaletteForm extends Component {
           })}
         >
           <div className={classes.drawerHeader} />
-          <DraggableColorList colors={colors} removeColor={this.removeColor} axis="xy" onSortEnd={this.onSortEnd} />
+          <DraggableColorList
+            colors={colors}
+            removeColor={this.removeColor}
+            axis="xy"
+            onSortEnd={this.onSortEnd}
+            distance={20}
+          />
         </main>
       </div>
     );
