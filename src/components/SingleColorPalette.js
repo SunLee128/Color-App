@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { withStyles } from '@material-ui/styles';
 import Navbar from './Navbar';
-import PaletteFooter from './PaletteFooter';
-import { withStyles } from "@material-ui/styles";
 import ColorBox from './ColorBox';
-import styles from '../styles/PaletteStyles'
+import PaletteFooter from './PaletteFooter';
+import styles from '../styles/PaletteStyles';
 
 class SingleColorPalette extends Component {
   constructor (props) {
@@ -19,9 +19,7 @@ class SingleColorPalette extends Component {
     const allColors = palette.colors;
 
     for (const key in allColors) {
-      shades = shades.concat(
-        allColors[key].filter(color => color.id === colorToFilterBy)
-      );
+      shades = shades.concat(allColors[key].filter((color) => color.id === colorToFilterBy));
     }
     return shades.slice(1);
   }
@@ -34,13 +32,8 @@ class SingleColorPalette extends Component {
     const { format } = this.state;
     const { paletteName, emoji, id } = this.props.palette;
     const { classes } = this.props;
-    const colorBoxes = this._shades.map(color => (
-      <ColorBox
-        key={color.name}
-        name={color.name}
-        background={color[format]}
-        showingFullPalette={false}
-      />
+    const colorBoxes = this._shades.map((color) => (
+      <ColorBox key={color.name} name={color.name} background={color[format]} showingFullPalette={false} />
     ));
     return (
       <div className={classes.Palette}>
