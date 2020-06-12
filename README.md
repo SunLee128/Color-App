@@ -1,11 +1,19 @@
 ## React Color 🌈🌈🌈🌈🌈🌈🌈🌈
 
 Fun colors!
-Pick your colors and copy the color value to your clipboard or create your own palette.
+Pick your colors and copy the value to your clipboard or create your own palette.
 
 ### Deployed on AWS
 
 [Try](http://colorapp-env.eba-2s5pebwc.ap-southeast-2.elasticbeanstalk.com/)
+
+### Features
+
+- Create,save or delete custom palettes
+- 3 types of color values are provided (HEX, rgb, rgba)
+- 9 shades of a color is provided
+- Responsive design
+- Drag & drop color boxes while creating a new custom palette
 
 ### Technology used
 
